@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple JS Clock</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>This is simple clock using JavaScript</h1>
+    <div class="container">
+        <span class="subbox" id="hr"></span>:
+        <span class="subbox" id="mi"></span>:
+        <span class="subbox" id="sc"></span>
+    </div>
+</body>
+<script>
+    //write JS Code below HTML, beause it should load after HTML Code
+    function current() {
+        let dt = new Date();
+        let hour = dt.getHours();
+        let min = dt.getMinutes();
+        let sec = dt.getSeconds();
+        document.getElementById('hr').innerHTML = hour;
+        document.getElementById('mi').innerHTML = min;
+        document.getElementById('sc').innerHTML = sec;
+    }
+    setInterval(current, 1000);
+</script>
+
+</html>

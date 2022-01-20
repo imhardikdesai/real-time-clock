@@ -1,0 +1,25 @@
+body{
+    background-color: rgba(221, 221, 221, 0.562);
+}
+h1{
+    text-align: center;
+    background-color: aqua;
+    color: black;
+    padding: 8px;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    /* border: 2px solid red; */
+    font-size: 300px;
+}
+.subbox{
+    /* border: 2px solid purple; */
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    font-size: 300px;
+}
