@@ -23,3 +23,34 @@ h1{
     height: 300px;
     font-size: 300px;
 }
+.box{
+    margin: auto;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+.round{
+    background-image: url('Assets/Clock.png');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 600px;
+}
+#img1{
+    height: 170px;
+    bottom: 41px;
+}
+#img2{
+    height: 229px;
+    top: 199px;
+    left: 632px;
+}
+#img3{
+    height: 195px;
+}
+.position{
+    position: absolute;
+}
