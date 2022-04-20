@@ -16,13 +16,7 @@ h1{
     /* border: 2px solid red; */
     font-size: 300px;
 }
-.subbox{
-    /* border: 2px solid purple; */
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    font-size: 300px;
-}
+
 .box{
     margin: auto;
     display: flex;
@@ -39,18 +33,40 @@ h1{
     height: 600px;
     width: 600px;
 }
-#img1{
-    height: 170px;
-    bottom: 41px;
-}
-#img2{
-    height: 229px;
-    top: 199px;
-    left: 632px;
-}
-#img3{
-    height: 195px;
-}
-.position{
+.hands{
+    border: 1px solid black;
+    border-radius: 12px;
     position: absolute;
+    z-index: -1;
+}
+#min{
+    background-color: rgb(12, 12, 12);
+    width: 150px;
+    height: 7px;
+    top: 399px;
+    left: 617px;
+    transform-origin: right;
+    transform: rotate(0deg);
+}
+#sec{
+    background-color: rgb(236, 43, 43);
+    width: 216px;
+    height: 3px;
+    top: 400px;
+    left: 553px;
+    transform-origin: right;
+    transform: rotate(0deg);
+    border: 0px solid transparent;
+}
+#hr{
+    background-color: rgb(12, 12, 12);
+    width: 184px;
+    height: 3px;
+    top: 400px;
+    left: 583px;
+    transform-origin: right;
+    transform: rotate(0deg);
+}
+#dot{
+    height: 25px;
 }
