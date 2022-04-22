@@ -32,6 +32,7 @@ h1{
     justify-content: center;
     height: 600px;
     width: 600px;
+    z-index: -1;
 }
 .hands{
     border: 1px solid black;
@@ -41,12 +42,12 @@ h1{
 }
 #min{
     background-color: rgb(12, 12, 12);
-    width: 150px;
-    height: 7px;
-    top: 399px;
-    left: 617px;
+    width: 184px;
+    height: 3px;
+    top: 400px;
+    left: 583px;
     transform-origin: right;
-    transform: rotate(0deg);
+    transform: rotate(90deg);
 }
 #sec{
     background-color: rgb(236, 43, 43);
@@ -55,17 +56,17 @@ h1{
     top: 400px;
     left: 553px;
     transform-origin: right;
-    transform: rotate(0deg);
+    transform: rotate(90deg);
     border: 0px solid transparent;
 }
 #hr{
     background-color: rgb(12, 12, 12);
-    width: 184px;
-    height: 3px;
-    top: 400px;
-    left: 583px;
+    width: 150px;
+    height: 7px;
+    top: 399px;
+    left: 617px;
     transform-origin: right;
-    transform: rotate(0deg);
+    transform: rotate(90deg);
 }
 #dot{
     height: 25px;
