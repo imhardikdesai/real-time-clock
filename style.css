@@ -1,14 +1,15 @@
-body{
+body {
     background-color: rgba(221, 221, 221, 0.562);
 }
-h1{
+
+h1 {
     text-align: center;
     background-color: aqua;
     color: black;
     padding: 8px;
 }
 
-.container{
+.container {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,13 +18,14 @@ h1{
     font-size: 300px;
 }
 
-.box{
+.box {
     margin: auto;
     display: flex;
     /* align-items: center; */
     justify-content: center;
 }
-.round{
+
+.round {
     background-image: url('Assets/Clock.png');
     background-position: center;
     background-size: cover;
@@ -34,40 +36,46 @@ h1{
     width: 600px;
     z-index: -1;
 }
-.hands{
+
+.hands {
     border: 1px solid black;
     border-radius: 12px;
-    position: absolute;
+    position: relative;
     z-index: -1;
 }
-#min{
+
+#min {
     background-color: rgb(12, 12, 12);
     width: 184px;
     height: 3px;
-    top: 400px;
-    left: 583px;
+    top: 3px;
+    left: 80px;
     transform-origin: right;
     transform: rotate(90deg);
 }
-#sec{
+
+#sec {
     background-color: rgb(236, 43, 43);
     width: 216px;
     height: 3px;
-    top: 400px;
-    left: 553px;
+    top: -1px;
+    left: -137px;
     transform-origin: right;
     transform: rotate(90deg);
     border: 0px solid transparent;
 }
-#hr{
+
+#hr {
     background-color: rgb(12, 12, 12);
     width: 150px;
     height: 7px;
-    top: 399px;
-    left: 617px;
+    top: -1px;
+    left: -293px;
     transform-origin: right;
     transform: rotate(90deg);
 }
-#dot{
+#dot {
     height: 25px;
+    position: relative;
+    left: 276px;
 }
